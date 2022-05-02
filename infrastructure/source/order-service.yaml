@@ -4,4 +4,4 @@ metadata:
   name: order-service
 spec:
   image: ebinsu/order-service
-  interval: 1m0s
+  interval: 12h
