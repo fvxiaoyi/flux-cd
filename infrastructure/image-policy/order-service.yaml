@@ -5,3 +5,6 @@ metadata:
 spec:
   imageRepositoryRef:
     name: order-service
+  policy:
+    numericalPolicy:
+      order: "desc"
