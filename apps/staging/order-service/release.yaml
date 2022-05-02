@@ -5,9 +5,9 @@ metadata:
   namespace: staging
 spec:
   releaseName: order-service
-  targetNamespace: staging
-  install:
-    createNamespace: true
+#  targetNamespace: staging
+#  install:
+#    createNamespace: true
   chart:
     spec:
       chart: order-service
