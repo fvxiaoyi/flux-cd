@@ -1,0 +1,10 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImagePolicy
+metadata:
+  name: order-service
+spec:
+  imageRepositoryRef:
+    name: order-service
+  policy:
+    semver:
+      range: ">20"
