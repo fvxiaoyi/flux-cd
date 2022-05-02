@@ -5,6 +5,3 @@ metadata:
 spec:
   imageRepositoryRef:
     name: order-service
-  policy:
-    semver:
-      range: ">20"
