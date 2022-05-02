@@ -5,6 +5,7 @@ metadata:
 spec:
   imageRepositoryRef:
     name: order-service
+    namespace: flux-system
   policy:
-    numericalPolicy:
-      order: "desc"
+    semver:
+      range: ">= 20"
