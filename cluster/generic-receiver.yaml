@@ -5,6 +5,8 @@ metadata:
   namespace: flux-system
 spec:
   type: generic
+  secretRef:
+    name: webhook-token
   resources:
     - apiVersion: source.toolkit.fluxcd.io/v1beta2
       kind: HelmRepository
