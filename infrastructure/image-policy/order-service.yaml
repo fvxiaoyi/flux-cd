@@ -7,5 +7,5 @@ spec:
     name: order-service
     namespace: flux-system
   policy:
-    semver:
-      range: ">= 20"
+    numerical:
+      order: "desc"
