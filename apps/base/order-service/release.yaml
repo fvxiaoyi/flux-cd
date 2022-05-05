@@ -14,5 +14,5 @@ spec:
   interval: 1m
   values:
     image:
-      tag: "30" # {"$imagepolicy": "flux-system:order-service:tag"}
+      tag: "31" # {"$imagepolicy": "flux-system:order-service:tag"}
     replicaCount: 1
