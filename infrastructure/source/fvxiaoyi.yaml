@@ -3,5 +3,5 @@ kind: HelmRepository
 metadata:
   name: fvxiaoyi
 spec:
-  interval: 1m
+  interval: 12h0m0s
   url: https://fvxiaoyi.github.io/helm-charts/
