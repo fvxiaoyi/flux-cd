@@ -4,3 +4,5 @@ namespace: prod
 resources:
   - namespace.yaml
   - ../../../base/order-service
+patchesStrategicMerge:
+  - values.yaml
